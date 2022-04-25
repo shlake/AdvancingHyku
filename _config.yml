@@ -2,4 +2,6 @@ url: 'http:'
 name: 'Advancing Hyku Project'
 description: 'Project information, resources and updates'
 
+baseurl: "http://shlake.github.io/AdvancingHyku"
+
 markdown: kramdown
