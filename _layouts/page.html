@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+	<html>
+		<head>
+			<title>{{ page.title }}</title>
+			<!-- link to main stylesheet -->
+			<!-- orig: <link rel="stylesheet" type="text/css" href="/css/main.css"> -->
+			<link href="/css/main.css" rel="stylesheet">
+		</head>
+		<body>
+			<nav>
+	    		<ul>
+	        		<li><a href="/">Home</a></li>
+		        	<li><a href="about.md">About</a></li>
+				<li><a href="deliverables.md">Deliverables</a></li>
+	        		<li><a href="outputs.md">Outputs</a></li>
+				<li><a href="updates.md">Updates</a></li>
+	      
+	    		</ul>
+			</nav>
+			<div class="container">
+			
+			{{ content }}
+			
+			</div><!-- /.container -->
+
+		</body>
+	</html>
