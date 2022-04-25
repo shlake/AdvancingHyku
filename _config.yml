@@ -2,5 +2,4 @@ url: 'http:'
 name: 'Advancing Hyku Project'
 description: 'Project information, resources and updates'
 
-theme: jekyll-theme-minimal
 markdown: kramdown
